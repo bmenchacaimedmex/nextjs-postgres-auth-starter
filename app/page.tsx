@@ -20,7 +20,7 @@ export default function Page() {
         </svg>
         <div className="text-center max-w-screen-sm mb-10">
           <h1 className="text-stone-200 font-bold text-2xl">
-            Next.js + Postgres Auth Starter
+            Next.js + SQL Auth Starter
           </h1>
           <p className="text-stone-400 mt-5">
             This is a{' '}
@@ -43,12 +43,12 @@ export default function Page() {
             </a>{' '}
             for simple email + password login and a{' '}
             <a
-              href="https://vercel.com/postgres"
+              href=""
               target="_blank"
               rel="noopener noreferrer"
               className="text-stone-400 underline hover:text-stone-200 transition-all"
             >
-              Postgres
+              SQL
             </a>{' '}
             database to persist the data.
           </p>
@@ -62,7 +62,7 @@ export default function Page() {
           </Link>
           <p className="text-white">·</p>
           <a
-            href="https://vercel.com/templates/next.js/prisma-postgres-auth-starter"
+            href=""
             target="_blank"
             rel="noopener noreferrer"
             className="text-stone-400 underline hover:text-stone-200 transition-all"
